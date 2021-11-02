@@ -11,9 +11,9 @@ from pyrogram.errors import MessageNotModified
 
 
 class Config:
-    API_ID = int(os.environ.get("API_ID", 0))
-    API_HASH = os.environ.get("API_HASH", None)
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    API_ID = 5119765
+    API_HASH = ("ab310ff746864c1a33f3c590f1598c06")
+    BOT_TOKEN = ("1969588186:AAG_KlhwDyOGZm9c6WuaTROuEH-fJylSKnI")
     APP_NAME = os.environ.get("APP_NAME", None)
     API_KEY = os.environ.get("API_KEY", None)
     HU_APP = from_key(API_KEY).apps()[APP_NAME]
